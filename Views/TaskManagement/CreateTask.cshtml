@@ -30,6 +30,13 @@
                     {
                         <li class="@(task.IsCompleted ? "checked" : "")">
                             @task.TaskName - @task.TaskDescription
+
+@*                             <form asp-action="ToggleCompletion" asp-controller="TaskManagement" method="post" style="display: inline;">
+                                <input type="hidden" name="taskId" value="@task.TaskID" />
+                                <button type="submit">
+                                    @(task.IsCompleted ? "Undo" : "Complete")
+                                </button>
+                            </form> *@
                         </li>
                     }
                 }
@@ -38,6 +45,7 @@
                     <p>No tasks available.</p>
                 }
             </ul>
+
         </div>
     </div>
 </body>

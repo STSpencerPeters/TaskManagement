@@ -39,6 +39,19 @@ namespace TaskManagmentApp.Controllers
             return View(existingTasks);
 		}
 
-		
+		//[HttpPost]
+		//public async Task<IActionResult> ToggleCompleted(int taskId)
+		//{
+		//	var task = _dbContext.Tasks.FindAsync(taskId);
+  //          if (task == null)
+  //          {
+  //              return NotFound(); // Handle task not found
+  //          }
+
+  //          task.IsCompleted = !task.IsCompleted; // Toggle completion status
+  //          await _dbContext.SaveChangesAsync();
+
+  //          return RedirectToAction("CreateTask");
+		//}
 	}
 }
