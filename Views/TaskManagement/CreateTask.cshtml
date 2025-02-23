@@ -1,26 +1,43 @@
-﻿@model TaskManagmentApp.Models.TaskManagement
+﻿@model IEnumerable<TaskManagmentApp.Models.TaskManagement>
 
 @{
-	Layout = null;
+    Layout = null;
 }
 <head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, inital-scale=1.0, user-scalable=yes" />
-	<title>Task Management</title>
-	<link rel="stylesheet" href="~/css/taskScreen.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+    <title>Task Management</title>
+    <link rel="stylesheet" href="~/css/taskScreen.css" />
 </head>
 
 <body>
-	<div class="container">
-		<div class="task_management">
-			<h2>Task Management</h2>
-			<div class="row">
-				<input type="text" id="task_name" placeholder="Task Name" />
-				<input type="text" id="task_description" placeholder="Task Description" />
-				<button>Add Task</button>
-			</div>
-			<ul id="list_container">
-			</ul>
-		</div>
-	</div>
+    <div class="container">
+        <div class="task_management">
+            <h2>Task Management</h2>
+
+            <form asp-action="CreateTask" asp-controller="TaskManagement" method="post">
+                <div class="row">
+                    <input type="text" name="TaskName" placeholder="Task Name" required />
+                    <input type="text" name="TaskDescription" placeholder="Task Description" required />
+                    <button type="submit">Add Task</button>
+                </div>
+            </form>
+
+            <ul id="list_container">
+                @if (Model != null && Model.Any())
+                {
+                    @foreach (var task in Model)
+                    {
+                        <li class="@(task.IsCompleted ? "checked" : "")">
+                            @task.TaskName - @task.TaskDescription
+                        </li>
+                    }
+                }
+                else
+                {
+                    <p>No tasks available.</p>
+                }
+            </ul>
+        </div>
+    </div>
 </body>

@@ -13,7 +13,8 @@ namespace TaskManagmentApp.Controllers
 		}
 		public IActionResult Index()
 		{
-			return View();
+            var tasks = _dbContext.Tasks.ToList();
+            return View();
 		}
 
 		public IActionResult CreateTask()
