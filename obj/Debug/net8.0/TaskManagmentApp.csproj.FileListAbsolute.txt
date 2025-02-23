@@ -166,3 +166,4 @@ C:\Users\spenc\OneDrive\Documents\Lecture Notes\Year 3\PROG7311\Projects\TaskMan
 C:\Users\spenc\OneDrive\Documents\Lecture Notes\Year 3\PROG7311\Projects\TaskManagmentApp\obj\Debug\net8.0\TaskManagmentApp.pdb
 C:\Users\spenc\OneDrive\Documents\Lecture Notes\Year 3\PROG7311\Projects\TaskManagmentApp\obj\Debug\net8.0\TaskManagmentApp.genruntimeconfig.cache
 C:\Users\spenc\OneDrive\Documents\Lecture Notes\Year 3\PROG7311\Projects\TaskManagmentApp\obj\Debug\net8.0\ref\TaskManagmentApp.dll
+C:\Users\spenc\OneDrive\Documents\Lecture Notes\Year 3\PROG7311\Projects\TaskManagmentApp\obj\Debug\net8.0\TaskManagmentApp.sourcelink.json
