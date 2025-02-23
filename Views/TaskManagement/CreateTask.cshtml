@@ -1,0 +1,30 @@
+﻿@model TaskManagmentApp.Models.TaskManagement
+
+@{
+	Layout = null;
+}
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, inital-scale=1.0, user-scalable=yes" />
+	<title>Task Management</title>
+	<link rel="stylesheet" href="~/css/taskScreen.css" />
+</head>
+
+<body>
+	<div class="container">
+		<div class="task_management">
+			<h2>Task Management</h2>
+			<div class="row">
+				<input type="text" id="task_name" placeholder="Task Name" />
+				<input type="text" id="task_description" placeholder="Task Description" />
+				<button>Add Task</button>
+			</div>
+			<ul id="list_container">
+				<li class="checked">Task 1</li>
+				<li class="checked">Task 2</li>
+				<li class="checked">Task 3</li>
+
+			</ul>
+		</div>
+	</div>
+</body>

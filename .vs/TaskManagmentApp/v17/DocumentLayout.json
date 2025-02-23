@@ -1,0 +1,62 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\spenc\\OneDrive\\Documents\\Lecture Notes\\Year 3\\PROG7311\\Projects\\TaskManagmentApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9F5820EE-95D3-42C3-BBDA-711A7F3C80F1}|TaskManagmentApp.csproj|c:\\users\\spenc\\onedrive\\documents\\lecture notes\\year 3\\prog7311\\projects\\taskmanagmentapp\\wwwroot\\css\\taskscreen.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9F5820EE-95D3-42C3-BBDA-711A7F3C80F1}|TaskManagmentApp.csproj|solutionrelative:wwwroot\\css\\taskscreen.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F5820EE-95D3-42C3-BBDA-711A7F3C80F1}|TaskManagmentApp.csproj|c:\\users\\spenc\\onedrive\\documents\\lecture notes\\year 3\\prog7311\\projects\\taskmanagmentapp\\views\\taskmanagement\\createtask.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F5820EE-95D3-42C3-BBDA-711A7F3C80F1}|TaskManagmentApp.csproj|solutionrelative:views\\taskmanagement\\createtask.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "taskScreen.css",
+              "DocumentMoniker": "C:\\Users\\spenc\\OneDrive\\Documents\\Lecture Notes\\Year 3\\PROG7311\\Projects\\TaskManagmentApp\\wwwroot\\css\\taskScreen.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\taskScreen.css",
+              "ToolTip": "C:\\Users\\spenc\\OneDrive\\Documents\\Lecture Notes\\Year 3\\PROG7311\\Projects\\TaskManagmentApp\\wwwroot\\css\\taskScreen.css",
+              "RelativeToolTip": "wwwroot\\css\\taskScreen.css",
+              "ViewState": "AgIAACUAAAAAAAAAAAAmwFMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-23T16:04:54.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateTask.cshtml",
+              "DocumentMoniker": "C:\\Users\\spenc\\OneDrive\\Documents\\Lecture Notes\\Year 3\\PROG7311\\Projects\\TaskManagmentApp\\Views\\TaskManagement\\CreateTask.cshtml",
+              "RelativeDocumentMoniker": "Views\\TaskManagement\\CreateTask.cshtml",
+              "ToolTip": "C:\\Users\\spenc\\OneDrive\\Documents\\Lecture Notes\\Year 3\\PROG7311\\Projects\\TaskManagmentApp\\Views\\TaskManagement\\CreateTask.cshtml",
+              "RelativeToolTip": "Views\\TaskManagement\\CreateTask.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-23T16:01:38.408Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
