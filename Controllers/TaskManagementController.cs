@@ -14,13 +14,13 @@ namespace TaskManagmentApp.Controllers
 		public IActionResult Index()
 		{
             var tasks = _dbContext.Tasks.ToList();
-            return View();
+            return View(tasks);
 		}
 
 		public IActionResult CreateTask()
 		{
 			var tasks = _dbContext.Tasks.ToList();
-			return View();
+			return View(tasks);
 		}
 
 		[HttpPost]
@@ -30,10 +30,15 @@ namespace TaskManagmentApp.Controllers
 			{
 				_dbContext.Tasks.Add(task);
 				await _dbContext.SaveChangesAsync();
-				return RedirectToAction("CreateTask");
+
+                var tasks = _dbContext.Tasks.ToList();
+                return View(tasks);
 			}
 
-			return View("CreateTask", _dbContext.Tasks.ToList());
+            var existingTasks = _dbContext.Tasks.ToList();
+            return View(existingTasks);
 		}
+
+		
 	}
 }
